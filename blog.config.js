@@ -1,7 +1,7 @@
 // 注: process.env.XX是Vercel的环境变量，配置方式见：https://docs.tangly1024.com/zh/features/personality
 const BLOG = {
   AUTHOR: 'Mukii', // 作者
-  BIO: '没有理想的人不伤心', // 作者简介
+  BIO: '一个大二学生', // 作者简介
   LINK: 'https://mukiispace.vercel.app/', // 网站地址
   KEYWORDS: '木木君,个人网站,Mukii,Mukiispace', // 网站关键词 英文逗号隔开
   NOTION_PAGE_ID:
