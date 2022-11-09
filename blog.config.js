@@ -3,7 +3,7 @@ const BLOG = {
   AUTHOR: 'Mukii', // 作者
   BIO: '一个大二学生', // 作者简介
   LINK: 'https://mukiispace.vercel.app/', // 网站地址
-  KEYWORDS: '木木君,个人网站,Mukii,Mukiispace', // 网站关键词 英文逗号隔开
+  KEYWORDS: '木木君,个人网站,Mukii,Mukiispace,西北生活,西安电子科技大学', // 网站关键词 英文逗号隔开
   NOTION_PAGE_ID:
   process.env.NOTION_PAGE_ID || '', // Important page_id！！！Duplicate Template from  https://www.notion.so/tanghh/02ab3b8678004aa69e9e415905ef32a5
   NOTION_ACCESS_TOKEN: process.env.NOTION_ACCESS_TOKEN || '', // Useful if you prefer not to make your database public
@@ -26,8 +26,8 @@ const BLOG = {
   APPEARANCE: 'auto', // ['light', 'dark', 'auto'], // light 日间模式 ， dark夜间模式， auto根据时间和主题自动夜间模式
 
   // 自定义字体示例： 请先将 CUSTOM_FONT 改为 true， 并将 CUSTOM_FONT_URL 改为你的字体CSS地址，同时在 CUSTOM_FONT_SANS 与 CUSTOM_FONT_SERIF 中指定你的 fontfamily
-  CUSTOM_FONT: false, // 是否使用自定义字体
-  CUSTOM_FONT_URL: ['https://cdn.jsdelivr.net/npm/lxgw-wenkai-screen-webfont@1.6.0/lxgwwenkaiscreen.css'], // 自定义字体的CSS
+  CUSTOM_FONT: true, // 是否使用自定义字体
+  CUSTOM_FONT_URL: ['https://fonts.googleapis.com/css2?family=Noto+Serif+SC&display=swap'], // 自定义字体的CSS
   CUSTOM_FONT_SANS: ['LXGW WenKai Screen'], // 自定义无衬线字体
   CUSTOM_FONT_SERIF: ['LXGW WenKai Screen'], // 自定义衬线字体
 
