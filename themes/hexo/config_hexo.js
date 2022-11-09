@@ -2,6 +2,8 @@ const CONFIG_HEXO = {
   HOME_BANNER_ENABLE: true,
   HOME_BANNER_GREETINGS: ['Hi，我是Mukii，一个大二学生', 'Hi，我是Mukii，热爱哲学与音乐', 'Hi，我是Mukii，想活出有意义的人生！'], // 首页大图标语文字
 
+  HOME_NAV_BUTTONS: true, // 首页是否显示分类大图标按钮
+
   // 菜单配置
   MENU_CATEGORY: true, // 显示分类
   MENU_TAG: false, // 显示标签
