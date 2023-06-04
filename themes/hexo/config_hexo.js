@@ -3,7 +3,7 @@ const CONFIG_HEXO = {
   HOME_BANNER_GREETINGS: ['Hi，我是Mukii，一个大二学生', 'Hi，我是Mukii，热爱哲学与音乐', 'Hi，我是Mukii，想活出有意义的人生！'], // 首页大图标语文字
 
   HOME_NAV_BUTTONS: false, // 首页是否显示分类大图标按钮
-  HOME_NAV_BACKGROUND_IMG_FIXED: true, // 首页背景图滚动时是否固定，true 则滚动时图片不懂； false则随鼠标滚动
+  HOME_NAV_BACKGROUND_IMG_FIXED: false, // 首页背景图滚动时是否固定，true 则滚动时图片不懂； false则随鼠标滚动
 
   // 菜单配置
   MENU_INDEX: true, // 显示首页
